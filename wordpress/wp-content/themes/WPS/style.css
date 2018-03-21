@@ -1,0 +1,68 @@
+/*
+Theme Name: WPS
+Theme URI:
+Author: Anne
+Author URI:
+Description: The new theme for World Property Services
+Version: 1.0
+License:
+License URI:
+Text Domain: WPS
+*/
+
+* {
+    font-family: butler;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #00b9eb;
+    font: 16px Arial, sans-serif;
+
+}
+
+#content_container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#content_container, header, nav, footer {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+ul#menu-primary {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 90%;
+    list-style-type: none;
+    background-color: lightskyblue;
+    margin-bottom: 20px;
+}
+ul#menu-primary li  {
+    padding-right: 60px;
+    font-size: 25px;
+}
+
+ul#menu-primary a {
+    color: white;
+    text-decoration: none;
+    font-family: butler;
+}
+
